@@ -1,0 +1,39 @@
+.item {
+  font-weight: bold;
+  padding: 10px;
+  width: 350px;
+  border: 1px solid #f4f4f4;
+}
+
+.item:hover {
+  background: #ad9c9c;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.main {
+  width: 500px;
+  color: #3b3737;
+  font-size: 3rem;
+  margin: 0 auto;
+  display: flex;
+}
+
+.line {
+  border: 1px solid #eae3e3;
+}
+
+.but {
+  float: right;
+  padding: 12px 12px;
+  height: 75px;
+  border: 1px solid #b8b8b8;
+  background: #6e6e05;
+}
+
+.but:hover {
+  background: rgba(103, 103, 55, 0.25);
+}
+
+.done {
+  text-decoration: line-through;
+}
